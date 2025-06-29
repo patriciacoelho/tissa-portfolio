@@ -15,6 +15,5 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "stylelint.validate": ["css", "scss"],
-    "editor.formatOnSave": true,
-    "eslint.useFlatConfig": false
+    "editor.formatOnSave": true
 }
