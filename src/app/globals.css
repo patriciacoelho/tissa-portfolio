@@ -1,7 +1,9 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:where([data-mode=dark], [data-mode=dark] *));
+
 :root {
-    --background: #ffffff;
+    --background: #fff;
     --foreground: #171717;
 }
 

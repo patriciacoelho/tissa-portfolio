@@ -19,6 +19,7 @@ module.exports = {
                     'responsive',
                     'screen',
                     'theme',
+                    'custom-variant',
                 ],
             },
         ],
