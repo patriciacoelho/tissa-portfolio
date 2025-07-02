@@ -1,7 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Home() {
+import { getTranslations } from 'next-intl/server';
+
+export default async function Home() {
+    const t = await getTranslations();
+
     return (
         <div className='background-design min-h-screen w-screen px-10 py-8'>
             <header className='z-10 flex w-4/5 w-full max-w-[1920px] items-center justify-between justify-self-center'>
@@ -18,7 +22,7 @@ export default function Home() {
                         href='/'
                         className='router-link-active router-link-exact-active active-nav-item flex h-[44px] w-[100px] cursor-pointer flex-col items-center justify-center hover:text-violet-500'
                     >
-                        <span>Home</span>
+                        <span>{t('common.home')}</span>
                         <div className='border-radius-full h-[3px] w-1/3 bg-violet-500'></div>
                     </Link>
                     <a
