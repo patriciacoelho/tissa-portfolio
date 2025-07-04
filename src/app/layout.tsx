@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Geist_Mono, Rubik } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '../providers/ThemeProvider';
 
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 
-const geistSans = Geist({
-    variable: '--font-geist-sans',
+const rubiktSans = Rubik({
+    variable: '--font-rubik-sans',
     subsets: ['latin'],
 });
 
@@ -32,7 +32,7 @@ export default async function RootLayout({
     return (
         <html lang={locale} suppressHydrationWarning data-mode='light'>
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${rubiktSans.variable} ${geistMono.variable} bg-slate-50 antialiased`}
             >
                 <ThemeProvider>
                     <NextIntlClientProvider messages={messages}>

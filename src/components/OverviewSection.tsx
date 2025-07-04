@@ -3,10 +3,11 @@ import Image from 'next/image';
 
 export default async function OverviewSection() {
     return (
-        <div className='mt-5 ml-auto flex max-w-[500px] flex-col gap-3'>
+        <div className='mt-5 ml-auto flex max-w-[520px] flex-col gap-3'>
             <div className='relative flex flex-col items-start text-6xl font-black'>
-                <div className='color-neutral z-10'>Patricia</div>
-                <div className='color-primary z-10'>Coelho</div>
+                <h1 className='color-neutral z-10'>
+                    Patricia <br /> Coelho
+                </h1>
                 <span className='color-neutral-light z-10 mt-2 text-xl font-light'>
                     Frontend Developer | FullStack Developer
                 </span>
