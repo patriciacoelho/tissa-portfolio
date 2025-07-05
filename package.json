@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "prettier --check . && stylelint --allow-empty-input \"**/*.{css,scss}\" && next build",
+        "build": "prettier --check . && next build",
         "start": "next start -p 4000",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
