@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default async function OverviewSection() {
     return (
-        <div className='mt-5 ml-auto flex max-w-[520px] flex-col gap-3'>
+        <div className='mt-12 ml-0 flex max-w-[520px] flex-col gap-3 lg:mt-5 lg:ml-auto'>
             <div className='relative flex flex-col items-start text-6xl font-black'>
                 <h1 className='color-neutral z-10'>
                     Patricia <br /> Coelho
