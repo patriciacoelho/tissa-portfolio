@@ -21,7 +21,7 @@ export default async function OverviewSection() {
             </div>
             <div className='mt-10 flex w-full gap-5'>
                 <a
-                    className='z-50 flex w-full cursor-pointer items-center justify-center gap-3 rounded-2xl bg-white px-8 py-4 outline-0 hover:shadow-lg hover:shadow-blue-100 hover:outline-1 hover:outline-blue-400'
+                    className='z-50 flex w-full cursor-pointer items-center justify-center gap-3 rounded-2xl bg-white px-8 py-4 outline-0 hover:shadow-lg hover:shadow-purple-100 hover:outline-1 hover:outline-purple-400'
                     href='https://www.linkedin.com/in/patricia-coelhoo/'
                     rel='noopener noreferrer'
                     target='_blank'
@@ -35,7 +35,7 @@ export default async function OverviewSection() {
                     <span className='color-neutral-dark'>LinkedIn</span>
                 </a>
                 <a
-                    className='z-50 flex w-full cursor-pointer items-center justify-center gap-3 rounded-2xl bg-white px-8 py-4 outline-0 hover:shadow-lg hover:shadow-blue-100 hover:outline-1 hover:outline-blue-400'
+                    className='z-50 flex w-full cursor-pointer items-center justify-center gap-3 rounded-2xl bg-white px-8 py-4 outline-0 hover:shadow-lg hover:shadow-purple-100 hover:outline-1 hover:outline-purple-400'
                     href='https://github.com/patriciacoelho'
                     rel='noopener noreferrer'
                     target='_blank'
