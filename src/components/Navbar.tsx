@@ -1,19 +1,14 @@
 // import Link from 'next/link';
-import Image from 'next/image';
 // import { getTranslations } from 'next-intl/server';
+
+import Logo from './Logo';
 
 export default async function Navbar() {
     // const t = await getTranslations();
 
     return (
-        <nav className='z-10 flex w-4/5 w-full max-w-[1920px] items-center justify-between justify-self-center'>
-            <Image
-                className='cursor-pointer'
-                src='/images/tissa.svg'
-                alt='logo'
-                width={75}
-                height={32}
-            />
+        <nav className='z-10 flex w-4/5 max-w-[1920px] items-center justify-between justify-self-center'>
+            <Logo />
             <div className='color-neutral flex items-center gap-8'>
                 {/* <Link
                     aria-current='page'
