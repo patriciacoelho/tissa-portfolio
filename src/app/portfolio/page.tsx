@@ -3,6 +3,7 @@ import LandingPageSysvaleCard from './components/LandingPageSysvaleCard';
 import CuidaDesignSystemCard from './components/CuidaDesignSystemCard';
 import CidadeSaudavelCard from './components/CidadeSaudavelCard ';
 import MinhaVezCard from './components/MinhaVezCard';
+import GuataCard from './components/GuataCard';
 
 export default async function PortfolioPage() {
     return (
@@ -22,6 +23,7 @@ export default async function PortfolioPage() {
                 <CuidaDesignSystemCard />
                 <CidadeSaudavelCard />
                 <MinhaVezCard />
+                <GuataCard />
                 <LandingPageSysvaleCard />
             </main>
         </div>

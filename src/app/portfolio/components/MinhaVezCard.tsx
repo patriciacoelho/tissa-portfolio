@@ -12,7 +12,7 @@ export default async function MinhaVezCard() {
                     Minha Vez
                 </div>
                 <a
-                    className='project-link flex cursor-pointer items-center gap-1 rounded-md bg-none px-4 py-2 text-sm text-violet-500 hover:bg-violet-200'
+                    className='project-link flex cursor-pointer items-center gap-1 rounded-md bg-none px-4 py-2 text-sm text-violet-500 hover:bg-violet-200 dark:hover:bg-gray-800 dark:hover:text-white'
                     href='https://minhavez.com.br'
                     rel='noopener noreferrer'
                     target='_blank'

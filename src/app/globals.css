@@ -9,6 +9,7 @@
     --cuida-ds-title-color: rgb(42, 192, 146);
     --cidade-saudavel-title-color: rgb(37, 188, 96);
     --minha-vez-title-color: rgb(97, 116, 209);
+    --guata-title-color: #df4c5e;
 }
 
 @theme inline {
@@ -26,6 +27,7 @@
         --cuida-ds-title-color: #ededed;
         --cidade-saudavel-title-color: #ededed;
         --minha-vez-title-color: #ededed;
+        --guata-title-color: #ededed;
     }
 }
 
