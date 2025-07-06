@@ -5,6 +5,11 @@
 :root {
     --background: #edf0f1;
     --foreground: #3c3842;
+    --lp-sysvale-title-color: rgb(7, 52, 106);
+    --cuida-ds-title-color: rgb(42, 192, 146);
+    --cidade-saudavel-title-color: rgb(37, 188, 96);
+    --minha-vez-title-color: rgb(97, 116, 209);
+    --guata-title-color: #df4c5e;
 }
 
 @theme inline {
@@ -18,6 +23,11 @@
     :root {
         --background: #0a0a0a;
         --foreground: #ededed;
+        --lp-sysvale-title-color: #ededed;
+        --cuida-ds-title-color: #ededed;
+        --cidade-saudavel-title-color: #ededed;
+        --minha-vez-title-color: #ededed;
+        --guata-title-color: #ededed;
     }
 }
 

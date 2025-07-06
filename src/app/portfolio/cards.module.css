@@ -1,0 +1,68 @@
+.portfolio__lp_sysvale_card {
+    background: linear-gradient(
+        72deg,
+        rgb(7, 52, 107) -8.58%,
+        rgb(12, 75, 151) 57.84%,
+        rgb(21, 121, 243) 105.59%
+    );
+    border: 1.7px solid #012147;
+    color: #fff;
+    font-weight: 300;
+}
+
+.portfolio__cuida_ds {
+    background: linear-gradient(
+        72deg,
+        rgb(238, 255, 244) -8.58%,
+        rgb(250, 255, 252) 18.07%,
+        rgb(255, 255, 255) 61.68%
+    );
+}
+
+.portfolio__cuida_ds__light_effect {
+    background: #24d88a;
+    border-radius: 50%;
+    filter: blur(60px);
+    height: 300px;
+    opacity: 0.3;
+    position: absolute;
+    right: 5%;
+    top: -3%;
+    width: 300px;
+}
+
+.portfolio__cidade_saudavel {
+    background: linear-gradient(
+        72deg,
+        rgb(32, 173, 87) -8.58%,
+        rgb(37, 181, 93) 41.92%,
+        rgb(69, 232, 133) 105.59%
+    );
+}
+
+.portfolio__minha_vez {
+    background:
+        linear-gradient(
+            72deg,
+            rgb(226, 222, 255) -8.58%,
+            rgb(244, 244, 255) 18.07%,
+            rgb(255, 255, 255) 61.68%
+        ),
+        rgb(217, 217, 217);
+}
+
+.portfolio__minha_vez__light_effect {
+    background: #736eec;
+    border-radius: 50%;
+    filter: blur(60px);
+    height: 300px;
+    opacity: 0.3;
+    position: absolute;
+    right: 5%;
+    top: -3%;
+    width: 300px;
+}
+
+.portfolio__guata {
+    background-color: #df4c5e;
+}
