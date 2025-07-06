@@ -45,18 +45,14 @@ export default async function LandingPageSysvaleCard() {
                     />
                     <div className='z-10 text-sm text-white lg:w-[50%]'>
                         I contributed to the development of the company’s
-                        institutional landing page, collaborating closely with
-                        the design and marketing crews. The project aimed to
-                        clearly communicate the brand’s value proposition
-                        through a visually appealing and user-centered
+                        institutional landing page, working closely with the
+                        design and marketing crews to clearly communicate the
+                        brand’s value proposition through a visually appealing
                         experience. I was responsible for implementing a
-                        responsive and accessible interface with a strong focus
-                        on performance, integrating internal services as needed,
-                        and ensuring design fidelity through close coordination
-                        with the UX/UI designer. Throughout the development
-                        process, I followed clean code principles and best
-                        practices to deliver a scalable and maintainable
-                        solution.
+                        responsive and accessible interface, integrating
+                        internal services, and ensuring design fidelity. The
+                        project followed clean code practices to ensure
+                        performance, scalability, and maintainability.
                     </div>
                     <span>
                         <strong>Tech stack: </strong>
