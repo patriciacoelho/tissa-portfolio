@@ -30,3 +30,12 @@
     top: -3%;
     width: 300px;
 }
+
+.portfolio__cidade_saudavel {
+    background: linear-gradient(
+        72deg,
+        rgb(32, 173, 87) -8.58%,
+        rgb(37, 181, 93) 41.92%,
+        rgb(69, 232, 133) 105.59%
+    );
+}

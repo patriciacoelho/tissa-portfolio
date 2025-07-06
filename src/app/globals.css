@@ -7,6 +7,7 @@
     --foreground: #3c3842;
     --lp-sysvale-title-color: rgb(7, 52, 106);
     --cuida-ds-title-color: rgb(42, 192, 146);
+    --cidade-saudavel-title-color: rgb(37, 188, 96);
 }
 
 @theme inline {
@@ -22,6 +23,7 @@
         --foreground: #ededed;
         --lp-sysvale-title-color: #ededed;
         --cuida-ds-title-color: #ededed;
+        --cidade-saudavel-title-color: #ededed;
     }
 }
 

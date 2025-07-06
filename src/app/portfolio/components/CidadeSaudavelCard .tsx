@@ -2,18 +2,18 @@ import Image from 'next/image';
 import styles from '../cards.module.css';
 import { ExternalLink } from 'lucide-react';
 
-export default async function LandingPageSysvaleCard() {
+export default async function CidadeSaudavelCard() {
     return (
         <div className='z-10 flex w-full flex-col gap-3'>
             <div className='flex items-center justify-between gap-3'>
                 <div
-                    className={`flex cursor-pointer gap-1 text-2xl font-bold text-(--lp-sysvale-title-color) hover:underline dark:text-white`}
+                    className={`flex cursor-pointer gap-1 text-2xl font-bold text-(--cidade-saudavel-title-color) hover:underline dark:text-white`}
                 >
-                    Landing Page - Sysvale
+                    Cidade Saudável
                 </div>
                 <a
                     className='project-link flex cursor-pointer items-center gap-1 rounded-md bg-none px-4 py-2 text-sm text-violet-500 hover:bg-violet-200'
-                    href='https://sysvale.com/'
+                    href='https://cidadesaudavel.com/'
                     rel='noopener noreferrer'
                     target='_blank'
                 >
@@ -28,39 +28,36 @@ export default async function LandingPageSysvaleCard() {
                 <div className='absolute top-[-8px] right-0 z-10 hidden lg:block'>
                     <Image
                         className='h-[339px] w-[560px]'
-                        src='/images/sysvale.svg'
+                        src='/images/cidade-saudavel.svg'
                         alt='Project image'
                         width={487}
                         height={295}
                     />
                 </div>
                 <div
-                    className={`${styles.portfolio__lp_sysvale_card} relative flex h-auto w-full flex-col justify-center gap-4 overflow-hidden rounded-2xl px-8 py-8 lg:h-[360px] lg:px-12 lg:py-4`}
+                    className={`${styles.portfolio__cidade_saudavel} relative flex h-auto w-full flex-col justify-center gap-4 overflow-hidden rounded-2xl px-8 py-8 lg:h-[360px] lg:px-12 lg:py-4`}
                 >
                     <Image
-                        src='/images/sysvale-logo.svg'
+                        src='/images/cidade-saudavel-logo.svg'
                         alt='Project logo'
                         width={150}
                         height={35}
                     />
                     <div className='z-10 text-sm text-white lg:w-[50%]'>
-                        I contributed to the development of the company’s
-                        institutional landing page, collaborating closely with
-                        the design and marketing crews. The project aimed to
-                        clearly communicate the brand’s value proposition
-                        through a visually appealing and user-centered
-                        experience. I was responsible for implementing a
-                        responsive and accessible interface with a strong focus
-                        on performance, integrating internal services as needed,
-                        and ensuring design fidelity through close coordination
-                        with the UX/UI designer. Throughout the development
-                        process, I followed clean code principles and best
-                        practices to deliver a scalable and maintainable
-                        solution.
+                        Cidade Saudável is a health tech platform for managing
+                        primary care services across municipalities, supporting
+                        over 6,000 professionals and reaching more than 2
+                        million citizens. I worked primarily on the front-end,
+                        contributing to modules such as Vaccination, Regulation,
+                        Family Health, Endemic Mapping, and electronic health
+                        records. I also implemented the landing page and
+                        collaborated on the development of a Flutter app from
+                        scratch.
                     </div>
-                    <span>
+                    <span className='text-white'>
                         <strong>Tech stack: </strong>
-                        Nuxt (Vue.js), HTML5, SCSS, JavaScript, Git.
+                        Vue.js, JavaScript, HTML5, SCSS, Flutter, MongoDB,
+                        Laravel, Git.
                     </span>
                 </div>
             </div>

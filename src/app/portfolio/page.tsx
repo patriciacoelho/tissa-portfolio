@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import LandingPageSysvaleCard from './components/LandingPageSysvaleCard';
 import CuidaDesignSystemCard from './components/CuidaDesignSystemCard';
+import CidadeSaudavelCard from './components/CidadeSaudavelCard ';
 
 export default async function PortfolioPage() {
     return (
@@ -18,6 +19,7 @@ export default async function PortfolioPage() {
                     </div>
                 </div>
                 <CuidaDesignSystemCard />
+                <CidadeSaudavelCard />
                 <LandingPageSysvaleCard />
             </main>
         </div>
