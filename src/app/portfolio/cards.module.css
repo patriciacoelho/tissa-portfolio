@@ -1,0 +1,11 @@
+.portfolio__lp_sysvale_card {
+    background: linear-gradient(
+        72deg,
+        rgb(7, 52, 107) -8.58%,
+        rgb(12, 75, 151) 57.84%,
+        rgb(21, 121, 243) 105.59%
+    );
+    border: 1.7px solid #012147;
+    color: #fff;
+    font-weight: 300;
+}
