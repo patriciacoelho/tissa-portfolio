@@ -9,3 +9,24 @@
     color: #fff;
     font-weight: 300;
 }
+
+.portfolio__cuida_ds {
+    background: linear-gradient(
+        72deg,
+        rgb(238, 255, 244) -8.58%,
+        rgb(250, 255, 252) 18.07%,
+        rgb(255, 255, 255) 61.68%
+    );
+}
+
+.portfolio__cuida_ds__light_effect {
+    background: #24d88a;
+    border-radius: 50%;
+    filter: blur(60px);
+    height: 300px;
+    opacity: 0.3;
+    position: absolute;
+    right: 5%;
+    top: -3%;
+    width: 300px;
+}
