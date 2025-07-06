@@ -39,3 +39,26 @@
         rgb(69, 232, 133) 105.59%
     );
 }
+
+.portfolio__minha_vez {
+    background:
+        linear-gradient(
+            72deg,
+            rgb(226, 222, 255) -8.58%,
+            rgb(244, 244, 255) 18.07%,
+            rgb(255, 255, 255) 61.68%
+        ),
+        rgb(217, 217, 217);
+}
+
+.portfolio__minha_vez__light_effect {
+    background: #736eec;
+    border-radius: 50%;
+    filter: blur(60px);
+    height: 300px;
+    opacity: 0.3;
+    position: absolute;
+    right: 5%;
+    top: -3%;
+    width: 300px;
+}
