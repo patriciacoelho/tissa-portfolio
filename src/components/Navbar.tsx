@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 
 import Logo from './Logo';
 import ContactAction from './ContactAction';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 export default function Navbar() {
     const t = useTranslations();
@@ -36,7 +37,10 @@ export default function Navbar() {
                     />
                 </Link>
             </div>
-            <ContactAction className='hidden sm:block' />
+            <div className='flex'>
+                <LanguageSwitcher className='mb-2' />
+                <ContactAction className='mb-2 hidden sm:block' />
+            </div>
         </nav>
     );
 }
