@@ -45,15 +45,15 @@ export default async function GuataCard() {
                     />
                     <div className='z-10 text-sm text-white lg:w-[50%]'>
                         Guatá is a mobile app designed to connect users with
-                        short, affordable trips offered by local tourism groups
-                        and agencies. Built as my final postgrad project, I
-                        developed the app using Flutter and created a RESTful
+                        short and affordable trips, offered by local tourism
+                        groups and agencies. Built as my final postgrad project,
+                        I developed the app using Flutter and created a RESTful
                         API with Flask, with MongoDB for data storage. The app
                         allows users to explore and filter trips based on date,
                         destination, or budget, view detailed itineraries, and
                         bookmark past or future trips. Guatá aims to make
                         spontaneous local travel more accessible and centralized
-                        in one platform.
+                        on one platform.
                     </div>
                     <span className='text-white'>
                         <strong>Tech stack: </strong>

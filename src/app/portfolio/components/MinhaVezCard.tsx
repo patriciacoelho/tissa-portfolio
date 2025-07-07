@@ -48,7 +48,7 @@ export default async function MinhaVezCard() {
                         allowing teams to efficiently prioritize daily calls. I
                         worked primarily on the front-end, applying UI patterns
                         and writing unit tests with Vitest to ensure quality and
-                        maintainability. I also mentored junior developers
+                        maintainability. I used to mentor junior developers
                         during the project, contributing to a strong
                         collaborative environment and consistent delivery.
                     </div>
