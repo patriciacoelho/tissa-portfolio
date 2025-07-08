@@ -24,11 +24,16 @@ export function LanguageSwitcher(props: { className: string }) {
             const value = '; ' + document.cookie;
             const parts = value.split('; ' + COOKIE_NAME + '=');
 
-            if (parts.length == 2) {
-                const lng = parts.pop()?.split(';').shift();
-                if (lng) {
-                    setLocale(lng as Locale);
-                }
+            if (parts.length == 1) {
+                const locale = 'en';
+                setUserLocale(locale);
+                setLocale(locale);
+                return;
+            }
+
+            const lng = parts.pop()?.split(';').shift();
+            if (lng) {
+                setLocale(lng as Locale);
             }
         }
     };
