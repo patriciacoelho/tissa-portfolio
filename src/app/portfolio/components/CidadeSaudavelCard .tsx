@@ -1,15 +1,18 @@
 import Image from 'next/image';
 import styles from '../cards.module.css';
 import { ExternalLink } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
-export default async function CidadeSaudavelCard() {
+export default function CidadeSaudavelCard() {
+    const t = useTranslations();
+
     return (
         <div className='z-10 flex w-full flex-col gap-3'>
             <div className='flex items-center justify-between gap-3'>
                 <div
                     className={`flex cursor-pointer gap-1 text-2xl font-bold text-(--cidade-saudavel-title-color) hover:underline dark:text-white`}
                 >
-                    Cidade Saudável
+                    {t('portfolio.cidade_saudavel.title')}
                 </div>
                 <a
                     className='project-link flex cursor-pointer items-center gap-1 rounded-md bg-none px-4 py-2 text-sm text-violet-500 hover:bg-violet-200 dark:hover:bg-gray-800 dark:hover:text-white'
@@ -17,7 +20,9 @@ export default async function CidadeSaudavelCard() {
                     rel='noopener noreferrer'
                     target='_blank'
                 >
-                    <span className='z-16 hidden lg:block'>See project</span>
+                    <span className='z-16 hidden lg:block'>
+                        {t('common.see_project')}
+                    </span>
                     <ExternalLink
                         className='iconify i-uil:arrow-up-right ml-1 size-[24px] lg:size-[18px]'
                         size={18}
@@ -29,7 +34,7 @@ export default async function CidadeSaudavelCard() {
                     <Image
                         className='h-[339px] w-[560px]'
                         src='/images/cidade-saudavel.svg'
-                        alt='Project image'
+                        alt={t('portfolio.cidade_saudavel.alt_image')}
                         width={487}
                         height={295}
                     />
@@ -39,25 +44,16 @@ export default async function CidadeSaudavelCard() {
                 >
                     <Image
                         src='/images/cidade-saudavel-logo.svg'
-                        alt='Project logo'
+                        alt={t('portfolio.cidade_saudavel.alt_logo')}
                         width={150}
                         height={35}
                     />
                     <div className='z-10 text-sm text-white lg:w-[50%]'>
-                        Cidade Saudável is a health tech platform for managing
-                        primary care services across municipalities, supporting
-                        over 6,000 professionals and reaching more than 2
-                        million citizens. I worked primarily on the front-end,
-                        contributing to modules such as Vaccination, Regulation,
-                        Family Health, Endemic Mapping, and electronic health
-                        records. I also implemented the landing page and
-                        collaborated on the development of a Flutter app from
-                        scratch.
+                        {t('portfolio.cidade_saudavel.summary')}
                     </div>
                     <span className='text-white'>
-                        <strong>Tech stack: </strong>
-                        Vue.js, JavaScript, HTML5, SCSS, Flutter, MongoDB,
-                        Laravel, Git.
+                        <strong>{t('common.tech_stack')}: </strong>
+                        {t('portfolio.cidade_saudavel.tech_stack')}
                     </span>
                 </div>
             </div>

@@ -1,6 +1,64 @@
 {
     "common": {
+        "github": "Github",
+        "linkedin": "Linkedin",
+        "contact_me": "Me contate",
+        "frontend_developer": "Desenvolvedora Frontend",
+        "fullstack_developer": "Desenvolvedora FullStack",
+        "tech_stack": "Tech stack",
+        "english_language": "Idioma inglês",
+        "portuguese_language": "Idioma português",
+        "see_project": "Ver projeto"
+    },
+    "navbar": {
         "home": "Início",
-        "language": "Idioma"
+        "portfolio": "Portfólio"
+    },
+    "overview": {
+        "summary_paragraph": "Combinando código, design e feedback para criar experiências digitais impactantes. Com mais de 7 anos de experiência na construção de soluções escaláveis, com código limpo, acessibilidade e desempenho em mente, transformo insights do usuário e métricas de produto em interfaces refinadas e envolventes.",
+        "alt_profile_image": "Imagem de perfil",
+        "frontend_main_stack": "Stack principal de Frontend: JavaScript, Vue.js, React, Next.js",
+        "backend_main_stack": "Stack principal de Backend: PHP, Laravel, Node.js, Python",
+        "mobile_main_stack": "Stack principal de Mobile: Flutter"
+    },
+    "portfolio": {
+        "pronoun": "Meu",
+        "title": "Portfólio",
+        "selected_works": "Trabalhos selecionados",
+        "cuida": {
+            "title": "Cuida Design System",
+            "alt_image": "Imagem do projeto Cuida",
+            "alt_logo": "Logo do Cuida",
+            "summary": "Fui uma das principais colaboradoras do Cuida, um design system escalável criado para trazer consistência, acessibilidade e velocidade ao desenvolvimento frontend da empresa. Ajudei a construir e manter mais de 50 componentes reutilizáveis ​​no Storybook, colaborando com a equipe de UX/UI para garantir o alinhamento entre design e implementação. O sistema suporta temas baseados em tokens, layouts responsivos e é totalmente documentado para fácil integração entre projetos.",
+            "tech_stack": "Vue.js, JavaScript, Storybook, Vitest, HTML5, SCSS (BEM), Git."
+        },
+        "cidade_saudavel": {
+            "title": "Cidade Saudável",
+            "alt_image": "Imagem do projeto Cidade Saudável",
+            "alt_logo": "Logo do Cidade Saudável",
+            "summary": "Cidade Saudável é uma plataforma health tech para a gestão de serviços de atenção primária em municípios, dando suporte a mais de 6.000 profissionais e alcançando mais de 2 milhões de cidadãos. Trabalhei principalmente no frontend, contribuindo para módulos como Vacinação, Regulação, Saúde da Família, Mapeamento de Endemias e Prontuários Eletrônicos. Também implementei a landing page e colaborei no desenvolvimento de um aplicativo Flutter do zero.",
+            "tech_stack": "Vue.js, JavaScript, HTML5, SCSS, Flutter, MongoDB, Laravel, Git."
+        },
+        "minha_vez": {
+            "title": "Minha Vez",
+            "alt_image": "Imagem do projeto Minha Vez",
+            "alt_logo": "Logo do Minha Vez",
+            "summary": "Minha Vez é um painel para gerenciar filas de atendimento, permitindo que as equipes priorizem as chamadas diárias com eficiência. Trabalhei principalmente no front-end, aplicando UI patterns e escrevendo testes unitários com Vitest para garantir qualidade e manutenibilidade. Fui mentora de desenvolvedores junior durante o projeto, contribuindo para um forte ambiente colaborativo e entrega consistente.",
+            "tech_stack": "Vue.js, Vitest, JavaScript, HTML5, SCSS, Laravel, MongoDB, Git."
+        },
+        "guata": {
+            "title": "Guatá: App (& API) de Viagem Local",
+            "alt_image": "Imagem do projeto Guatá",
+            "alt_logo": "Logo do Guatá",
+            "summary": "Guatá é um aplicativo móvel projetado para conectar usuários a viagens curtas e acessíveis, oferecidas por grupos e agências de turismo locais. Desenvolvido como meu projeto final de pós-graduação, desenvolvi o aplicativo usando Flutter e criei uma API RESTful com Flask, com MongoDB para armazenamento de dados. O aplicativo permite que os usuários explorem e filtrem viagens com base em data, destino ou orçamento, visualizem itinerários detalhados e marquem viagens passadas ou futuras. O Guatá visa tornar as viagens locais espontâneas mais acessíveis e centralizadas em uma única plataforma.",
+            "tech_stack": "Flutter, Dart, Flask, Python, MongoDB."
+        },
+        "lp_sysvale": {
+            "title": "Landing Page - Sysvale",
+            "alt_image": "Imagem da landing page da Sysvale",
+            "alt_logo": "Logo da Sysvale",
+            "summary": "Contribuí para o desenvolvimento da landing page institucional da empresa, trabalhando em colaboração direta com as equipes de design e marketing para comunicar claramente a proposta de valor da marca por meio de uma experiência visualmente atraente. Fui responsável por implementar uma interface responsiva e acessível, integrar serviços internos e garantir a fidelidade do design. O projeto seguiu práticas de código limpo para garantir desempenho, escalabilidade e manutenibilidade.",
+            "tech_stack": "Nuxt (Vue.js), HTML5, SCSS, JavaScript, Git."
+        }
     }
 }

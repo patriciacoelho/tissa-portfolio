@@ -1,6 +1,64 @@
 {
     "common": {
+        "github": "Github",
+        "linkedin": "Linkedin",
+        "contact_me": "Contact me",
+        "frontend_developer": "Frontend Developer",
+        "fullstack_developer": "Fullstack Developer",
+        "tech_stack": "Tech stack",
+        "english_language": "English language",
+        "portuguese_language": "Portuguese language",
+        "see_project": "See project"
+    },
+    "navbar": {
         "home": "Home",
-        "language": "Language"
+        "portfolio": "Portfolio"
+    },
+    "overview": {
+        "summary_paragraph": "Blending code, design, and feedback to craft impactful digital experiences. With over 7 years of experience building scalable solutions with clean code, accessibility, and performance in mind. I turn user insights and product metrics into refined, engaging interfaces.",
+        "alt_profile_image": "Profile picture",
+        "frontend_main_stack": "Frontend main stack: JavaScript, Vue.js, React, Next.js",
+        "backend_main_stack": "Backend main stack: PHP, Laravel, Node.js, Python",
+        "mobile_main_stack": "Mobile main stack: Flutter"
+    },
+    "portfolio": {
+        "pronoun": "My",
+        "title": "Portfolio",
+        "selected_works": "Selected works",
+        "cuida": {
+            "title": "Cuida Design System",
+            "alt_image": "Cuida project image",
+            "alt_logo": "Cuida logo",
+            "summary": "I was one of the main contributors to Cuida, a scalable design system created to bring consistency, accessibility, and speed to front-end development. I helped build and maintain over 50 reusable components in Storybook, collaborating with the UX/UI team to ensure alignment between design and implementation. The system supports token-based theming, responsive layouts, and is fully documented for easy integration across projects.",
+            "tech_stack": "Vue.js, JavaScript, Storybook, Vitest, HTML5, SCSS (BEM), Git."
+        },
+        "cidade_saudavel": {
+            "title": "Cidade Saudável",
+            "alt_image": "Cidade Saudável project image",
+            "alt_logo": "Cidade Saudável logo",
+            "summary": "Cidade Saudável is a health tech platform for managing primary care services across municipalities, supporting over 6,000 professionals and reaching more than 2 million citizens. I worked primarily on the front-end, contributing to modules such as Vaccination, Regulation, Family Health, Endemic Mapping, and electronic health records. I also implemented the landing page and collaborated on the development of a Flutter app from scratch.",
+            "tech_stack": "Vue.js, JavaScript, HTML5, SCSS, Flutter, MongoDB, Laravel, Git."
+        },
+        "minha_vez": {
+            "title": "Minha Vez",
+            "alt_image": "Minha Vez project image",
+            "alt_logo": "Minha Vez logo",
+            "summary": "Minha Vez is a dashboard for managing service queues, allowing teams to efficiently prioritize daily calls. I worked primarily on the front-end, applying UI patterns and writing unit tests with Vitest to ensure quality and maintainability. I used to mentor junior developers during the project, contributing to a strong collaborative environment and consistent delivery.",
+            "tech_stack": "Vue.js, Vitest, JavaScript, HTML5, SCSS, Laravel, MongoDB, Git."
+        },
+        "guata": {
+            "title": "Guatá: Local Travel App (& API)",
+            "alt_image": "Guatá project image",
+            "alt_logo": "Guatá logo",
+            "summary": "Guatá is a mobile app designed to connect users with short and affordable trips, offered by local tourism groups and agencies. Built as my final postgrad project, I developed the app using Flutter and created a RESTful API with Flask, with MongoDB for data storage. The app allows users to explore and filter trips based on date, destination, or budget, view detailed itineraries, and bookmark past or future trips. Guatá aims to make spontaneous local travel more accessible and centralized on one platform.",
+            "tech_stack": "Flutter, Dart, Flask, Python, MongoDB."
+        },
+        "lp_sysvale": {
+            "title": "Landing Page - Sysvale",
+            "alt_image": "Sysvale landing page image",
+            "alt_logo": "Sysvale logo",
+            "summary": "I contributed to the development of the company’s institutional landing page, working closely with the design and marketing crews to clearly communicate the brand’s value proposition through a visually appealing experience. I was responsible for implementing a responsive and accessible interface, integrating internal services, and ensuring design fidelity. The project followed clean code practices to ensure performance, scalability, and maintainability.",
+            "tech_stack": "Nuxt (Vue.js), HTML5, SCSS, JavaScript, Git."
+        }
     }
 }
