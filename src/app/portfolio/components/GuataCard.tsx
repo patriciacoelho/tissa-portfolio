@@ -1,15 +1,18 @@
 import Image from 'next/image';
 import styles from '../cards.module.css';
 import { ExternalLink } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
-export default async function GuataCard() {
+export default function GuataCard() {
+    const t = useTranslations();
+
     return (
         <div className='z-10 flex w-full flex-col gap-3'>
             <div className='flex items-center justify-between gap-3'>
                 <div
                     className={`flex cursor-pointer gap-1 text-2xl font-bold text-(--guata-title-color) hover:underline dark:text-white`}
                 >
-                    Guatá: Local Travel App (& API)
+                    {t('portfolio.guata.title')}
                 </div>
                 <a
                     className='project-link flex cursor-pointer items-center gap-1 rounded-md bg-none px-4 py-2 text-sm text-violet-500 hover:bg-violet-200 dark:hover:bg-gray-800 dark:hover:text-white'
@@ -17,7 +20,9 @@ export default async function GuataCard() {
                     rel='noopener noreferrer'
                     target='_blank'
                 >
-                    <span className='hidden lg:block'>See project</span>
+                    <span className='hidden lg:block'>
+                        {t('common.see_project')}
+                    </span>
                     <ExternalLink
                         className='iconify i-uil:arrow-up-right ml-1 size-[24px] lg:size-[18px]'
                         size={18}
@@ -29,7 +34,7 @@ export default async function GuataCard() {
                     <Image
                         className='h-[400px] w-auto'
                         src='/images/guata.svg'
-                        alt='Project image'
+                        alt={t('portfolio.guata.alt_image')}
                         width={487}
                         height={295}
                     />
@@ -39,25 +44,16 @@ export default async function GuataCard() {
                 >
                     <Image
                         src='/images/guata-logo.svg'
-                        alt='Project logo'
+                        alt={t('portfolio.guata.alt_logo')}
                         width={150}
                         height={35}
                     />
                     <div className='z-10 text-sm text-white lg:w-[50%]'>
-                        Guatá is a mobile app designed to connect users with
-                        short and affordable trips, offered by local tourism
-                        groups and agencies. Built as my final postgrad project,
-                        I developed the app using Flutter and created a RESTful
-                        API with Flask, with MongoDB for data storage. The app
-                        allows users to explore and filter trips based on date,
-                        destination, or budget, view detailed itineraries, and
-                        bookmark past or future trips. Guatá aims to make
-                        spontaneous local travel more accessible and centralized
-                        on one platform.
+                        {t('portfolio.guata.summary')}
                     </div>
                     <span className='text-white'>
-                        <strong>Tech stack: </strong>
-                        Flutter, Dart, Flask, Python, MongoDB.
+                        <strong>{t('common.tech_stack')}: </strong>
+                        {t('portfolio.guata.tech_stack')}
                     </span>
                 </div>
             </div>

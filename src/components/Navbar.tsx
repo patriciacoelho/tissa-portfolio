@@ -22,7 +22,7 @@ export default function Navbar() {
                     href='/'
                     className={`${pathname === '/' ? 'text-purple-700' : ''} router-link-active router-link-exact-active active-nav-item flex h-[44px] w-[100px] cursor-pointer flex-col items-center justify-center hover:text-violet-500`}
                 >
-                    <span>{t('common.home')}</span>
+                    <span>{t('navbar.home')}</span>
                     <div
                         className={`${pathname !== '/' ? 'hidden' : ''} border-radius-full h-[3px] w-1/3 bg-violet-500`}
                     />
@@ -31,7 +31,7 @@ export default function Navbar() {
                     href='/portfolio'
                     className={`${pathname === '/portfolio' ? 'text-purple-700' : ''} flex h-[44px] w-[100px] cursor-pointer flex-col items-center justify-center hover:text-violet-500`}
                 >
-                    <span>Portfolio</span>
+                    <span>{t('navbar.portfolio')}</span>
                     <div
                         className={`${pathname !== '/portfolio' ? 'hidden' : ''} border-radius-full h-[3px] w-1/3 bg-violet-500`}
                     />

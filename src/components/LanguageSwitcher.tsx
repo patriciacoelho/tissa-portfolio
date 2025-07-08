@@ -5,8 +5,11 @@ import { Locale } from '@/i18n/config';
 import { setUserLocale } from '@/services/locale';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 export function LanguageSwitcher(props: { className: string }) {
+    const t = useTranslations();
+
     const router = useRouter();
     const [isPending, startTransition] = useTransition();
     const [locale, setLocale] = useState<Locale>();
@@ -54,7 +57,7 @@ export function LanguageSwitcher(props: { className: string }) {
                         className='h-5 w-5'
                         width={16}
                         height={16}
-                        alt='English language'
+                        alt={t('common.english_language')}
                     />
                 </span>
             </button>
@@ -70,7 +73,7 @@ export function LanguageSwitcher(props: { className: string }) {
                         className='h-5 w-5'
                         width={16}
                         height={16}
-                        alt='Portuguese language'
+                        alt={t('common.portuguese_language')}
                     />
                 </span>
             </button>

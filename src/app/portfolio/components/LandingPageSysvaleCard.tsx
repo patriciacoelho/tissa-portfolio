@@ -1,15 +1,18 @@
 import Image from 'next/image';
 import styles from '../cards.module.css';
 import { ExternalLink } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
-export default async function LandingPageSysvaleCard() {
+export default function LandingPageSysvaleCard() {
+    const t = useTranslations();
+
     return (
         <div className='z-10 flex w-full flex-col gap-3'>
             <div className='flex items-center justify-between gap-3'>
                 <div
                     className={`flex cursor-pointer gap-1 text-2xl font-bold text-(--lp-sysvale-title-color) hover:underline dark:text-white`}
                 >
-                    Landing Page - Sysvale
+                    {t('portfolio.lp_sysvale.title')}
                 </div>
                 <a
                     className='project-link flex cursor-pointer items-center gap-1 rounded-md bg-none px-4 py-2 text-sm text-violet-500 hover:bg-violet-200 dark:hover:bg-gray-800 dark:hover:text-white'
@@ -17,7 +20,9 @@ export default async function LandingPageSysvaleCard() {
                     rel='noopener noreferrer'
                     target='_blank'
                 >
-                    <span className='hidden lg:block'>See project</span>
+                    <span className='hidden lg:block'>
+                        {t('common.see_project')}
+                    </span>
                     <ExternalLink
                         className='iconify i-uil:arrow-up-right ml-1 size-[24px] lg:size-[18px]'
                         size={18}
@@ -29,7 +34,7 @@ export default async function LandingPageSysvaleCard() {
                     <Image
                         className='h-[339px] w-[560px]'
                         src='/images/sysvale.svg'
-                        alt='Project image'
+                        alt={t('portfolio.lp_sysvale.alt_image')}
                         width={487}
                         height={295}
                     />
@@ -39,24 +44,16 @@ export default async function LandingPageSysvaleCard() {
                 >
                     <Image
                         src='/images/sysvale-logo.svg'
-                        alt='Project logo'
+                        alt={t('portfolio.lp_sysvale.alt_logo')}
                         width={150}
                         height={35}
                     />
                     <div className='z-10 text-sm text-white lg:w-[50%]'>
-                        I contributed to the development of the company’s
-                        institutional landing page, working closely with the
-                        design and marketing crews to clearly communicate the
-                        brand’s value proposition through a visually appealing
-                        experience. I was responsible for implementing a
-                        responsive and accessible interface, integrating
-                        internal services, and ensuring design fidelity. The
-                        project followed clean code practices to ensure
-                        performance, scalability, and maintainability.
+                        {t('portfolio.lp_sysvale.summary')}
                     </div>
                     <span>
-                        <strong>Tech stack: </strong>
-                        Nuxt (Vue.js), HTML5, SCSS, JavaScript, Git.
+                        <strong>{t('common.tech_stack')}: </strong>
+                        {t('portfolio.lp_sysvale.tech_stack')}
                     </span>
                 </div>
             </div>

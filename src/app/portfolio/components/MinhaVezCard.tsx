@@ -1,15 +1,18 @@
 import Image from 'next/image';
 import styles from '../cards.module.css';
 import { ExternalLink } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
-export default async function MinhaVezCard() {
+export default function MinhaVezCard() {
+    const t = useTranslations();
+
     return (
         <div className='z-10 flex w-full flex-col gap-3'>
             <div className='flex items-center justify-between gap-3'>
                 <div
                     className={`flex cursor-pointer gap-1 text-2xl font-bold text-(--minha-vez-title-color) hover:underline dark:text-white`}
                 >
-                    Minha Vez
+                    {t('portfolio.minha_vez.title')}
                 </div>
                 <a
                     className='project-link flex cursor-pointer items-center gap-1 rounded-md bg-none px-4 py-2 text-sm text-violet-500 hover:bg-violet-200 dark:hover:bg-gray-800 dark:hover:text-white'
@@ -17,7 +20,9 @@ export default async function MinhaVezCard() {
                     rel='noopener noreferrer'
                     target='_blank'
                 >
-                    <span className='hidden lg:block'>See project</span>
+                    <span className='hidden lg:block'>
+                        {t('common.see_project')}
+                    </span>
                     <ExternalLink
                         className='iconify i-uil:arrow-up-right ml-1 size-[24px] lg:size-[18px]'
                         size={18}
@@ -29,7 +34,7 @@ export default async function MinhaVezCard() {
                     <Image
                         className='h-[339px] w-[560px]'
                         src='/images/minha-vez.svg'
-                        alt='Project image'
+                        alt={t('portfolio.minha_vez.alt_image')}
                         width={487}
                         height={295}
                     />
@@ -39,23 +44,16 @@ export default async function MinhaVezCard() {
                 >
                     <Image
                         src='/images/minha-vez-logo.svg'
-                        alt='Project logo'
+                        alt={t('portfolio.minha_vez.alt_logo')}
                         width={150}
                         height={35}
                     />
                     <div className='z-10 text-sm text-gray-900 lg:w-[50%]'>
-                        Minha Vez is a dashboard for managing service queues,
-                        allowing teams to efficiently prioritize daily calls. I
-                        worked primarily on the front-end, applying UI patterns
-                        and writing unit tests with Vitest to ensure quality and
-                        maintainability. I used to mentor junior developers
-                        during the project, contributing to a strong
-                        collaborative environment and consistent delivery.
+                        {t('portfolio.minha_vez.summary')}
                     </div>
                     <span className='text-gray-900'>
-                        <strong>Tech stack: </strong>
-                        Vue.js, Vitest, JavaScript, HTML5, SCSS, Laravel,
-                        MongoDB, Git.
+                        <strong>{t('common.tech_stack')}: </strong>
+                        {t('portfolio.minha_vez.tech_stack')}
                     </span>
                     <div
                         className={`${styles.portfolio__minha_vez__light_effect} hidden sm:block`}
