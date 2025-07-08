@@ -15,8 +15,7 @@ export default function Navbar() {
     return (
         <nav className='z-10 flex w-full max-w-[1920px] flex-col items-center justify-between justify-self-center sm:mr-auto sm:ml-auto sm:w-4/5 sm:flex-row'>
             <Logo />
-            <ContactAction className='absolute top-[28px] right-[16px] block sm:hidden' />
-            <div className='mt-4 flex items-center gap-2 self-center sm:mt-0 sm:gap-8'>
+            <div className='mt-6 flex items-center gap-2 self-center sm:mt-0 sm:gap-8'>
                 <Link
                     aria-current='page'
                     href='/'
@@ -37,9 +36,9 @@ export default function Navbar() {
                     />
                 </Link>
             </div>
-            <div className='flex'>
+            <div className='absolute top-[28px] right-[16px] flex flex-wrap sm:relative sm:top-0 sm:right-0'>
                 <LanguageSwitcher className='mb-2' />
-                <ContactAction className='mb-2 hidden sm:block' />
+                <ContactAction className='mb-2' />
             </div>
         </nav>
     );

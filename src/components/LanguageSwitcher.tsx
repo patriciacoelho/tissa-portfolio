@@ -44,11 +44,11 @@ export function LanguageSwitcher(props: { className: string }) {
 
     return (
         <span
-            className={`${props.className} ${!locale ? 'animate-pulse' : ''} right-1 mr-2 flex flex-row items-center rounded-full border border-gray-300 hover:bg-gray-100`}
+            className={`${props.className} ${!locale ? 'animate-pulse' : ''} right-1 mr-2 flex flex-row items-center rounded-full border border-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700`}
         >
             <button
                 onClick={() => changeLanguage('en')}
-                className={`${isPending ? 'pointer-events-none' : ''} ${locale == 'en' ? 'border border-gray-300 bg-gray-300' : 'cursor-pointer'} flex flex-row items-center rounded-full p-3 text-sm font-medium text-gray-700 focus:outline-none`}
+                className={`${isPending ? 'pointer-events-none' : ''} ${locale == 'en' ? 'border border-gray-300 bg-gray-300 dark:text-gray-700' : 'cursor-pointer'} flex flex-row items-center rounded-full p-3 text-sm font-medium text-gray-700 focus:outline-none dark:text-gray-100`}
             >
                 <span className='text-md'>EN</span>
                 <span className='ml-1'>
@@ -64,7 +64,7 @@ export function LanguageSwitcher(props: { className: string }) {
 
             <button
                 onClick={() => changeLanguage('pt-br')}
-                className={`${isPending ? 'pointer-events-none' : ''} ${locale == 'pt-br' ? 'border border-gray-300 bg-gray-300' : 'cursor-pointer'} flex flex-row items-center rounded-full p-3 text-sm font-medium text-gray-700 focus:outline-none`}
+                className={`${isPending ? 'pointer-events-none' : ''} ${locale == 'pt-br' ? 'border border-gray-300 bg-gray-300 dark:text-gray-700' : 'cursor-pointer'} flex flex-row items-center rounded-full p-3 text-sm font-medium text-gray-700 focus:outline-none dark:text-gray-100`}
             >
                 <span className='text-md'>BR</span>
                 <span className='ml-1'>
